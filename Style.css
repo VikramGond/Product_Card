@@ -8,11 +8,13 @@ body {
   background-color: #264653;
   display:flex;
   justify-content: center;
+  position: relative;
+  top: 15vh;
 }
 
 .container {
-  position: relative;
-  top:18vh;
+  text-align: center;
+  padding: 5px;
   height: 400px;
   width: 250px;
   background-color:#2a9d8f;
@@ -23,19 +25,28 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 120px;
-  width: 250px;
+  height: 130px;
+  width: 240px;
   background-color: #e9c46a;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 10px;
+  position: relative;
+  left: 5px;
+  top: 6px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.3) ,4px 5px 4px rgba(0, 0, 0, 0.3) ,4px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+hr {
+  margin:  0 5px;
 }
 
 #img1 {
-  filter: drop-shadow(10px 5px 2px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(15px 10px 2px rgba(0, 0, 0, 0.7));
 }
 
 h1 {
-  padding: 10px;
+  padding: 8px;
+  margin: 5px;
+
 }
 
 p {
@@ -46,7 +57,35 @@ p {
 #price {
   padding: 10px;
   text-decoration-line: line-through;
-  text-decoration-color: crimson;
+  text-decoration-color: rgb(255, 0, 51);
   text-decoration-thickness: 2px;
   text-decoration-style: solid;
+}
+
+button {
+  margin: 5px;
+  position: relative;
+  left: 10px;
+  top: -2.5px;
+  height: 25px;
+  width: 70px;
+  color: rgb(10, 0, 0);
+  border-radius: 10px;
+  background-color: #E76F51;
+  border: none;
+  transition: tra;
+}
+
+#priceTag {
+  padding-left: 10px;
+}
+
+#price {
+  font-weight: 200;
+  font-size: small;
+}
+
+#ogPrice {
+  font-weight: 400;
+  font-size: large;
 }
