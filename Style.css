@@ -16,6 +16,7 @@ body {
   height: 400px;
   width: 250px;
   background-color:#2a9d8f;
+  border-radius: 10px;
 }
 
 .img {
@@ -25,8 +26,27 @@ body {
   height: 120px;
   width: 250px;
   background-color: #e9c46a;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 #img1 {
   filter: drop-shadow(10px 5px 2px rgba(0, 0, 0, 0.7));
+}
+
+h1 {
+  padding: 10px;
+}
+
+p {
+  padding: 10px;
+  padding-left: 20px;
+}
+
+#price {
+  padding: 10px;
+  text-decoration-line: line-through;
+  text-decoration-color: crimson;
+  text-decoration-thickness: 2px;
+  text-decoration-style: solid;
 }
