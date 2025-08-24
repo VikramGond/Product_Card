@@ -19,6 +19,7 @@ body {
   width: 250px;
   background-color:#2a9d8f;
   border-radius: 10px;
+  box-shadow:  2px 3px 5px 5px rgba(0, 0, 0, 0.2),  10px 3px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .img {
